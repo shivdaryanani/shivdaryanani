@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+body {
+	background-image:url(file:///Users/shivdaryanani/Documents/shivdaryanani.github.io/images/bkg.jpeg);
+    background-size: cover;
+
+}
+
+
+
+
+#twoheader{
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	width:50%;
+	font-size: 50px;
+	position:absolute;
+	left:300px;
+
+}
+
+
+
+#main {
+font-size: 100px;
+color: white;
+border-style: solid;
+border-width: 10px;
+width:80%;
+font-family:Lato;
+
+}
+
+#logo{
+    width:130px;
+}
+
+.button{
+    height:50px;
+    width:100px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    box-shadow: 10px 10px 30px #555;
+    left:160px;
+    font-size: 20px;
+    position:fixed;
+    text-align: center;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 25px;
+    
+}
+
