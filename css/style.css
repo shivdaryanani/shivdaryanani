@@ -6,8 +6,14 @@
 body {
 	background:url("https://i.imgur.com/2o904fv.png");
     background-size: cover;
-
+    
 }
+
+#website {
+    width:100%;
+  
+}
+
 
 
 
@@ -37,9 +43,10 @@ font-family:Lato;
 
 #logo{
     width:130px;
+    left:10px
 }
 
-.button{
+#p1{
     height:50px;
     width:100px;
     border: 1px solid black;
@@ -57,3 +64,73 @@ font-family:Lato;
     
 }
 
+#p2{
+    height:50px;
+    width:100px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    box-shadow: 10px 10px 30px #555;   
+    font-size: 20px;
+     text-align: center;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 25px;
+    position:fixed;
+    left: 388px;
+}
+
+#p3{
+    height:50px;
+    width:100px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    box-shadow: 10px 10px 30px #555;   
+    font-size: 20px;
+     text-align: center;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 25px;
+    position:fixed;
+    left: 620px;
+}
+
+#p4{
+    height:60px;
+    width:100px;
+    border: 1px solid black;
+    padding: 20px 65px;
+    padding-left:35px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 30px #555;   
+    font-size: 20px;
+    text-align: center;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 25px;
+    position:fixed;
+    right: 235px;
+
+}
+
+#p5{
+    height:50px;
+    width:100px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    box-shadow: 10px 10px 30px #555;   
+    font-size: 20px;
+     text-align: center;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 25px;
+    position:fixed;
+    right:10px;
+}
