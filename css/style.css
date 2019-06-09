@@ -6,15 +6,17 @@
 body {
 	background:url("https://i.imgur.com/2o904fv.png");
     background-size: cover;
-    
+
 }
 
 #website {
-    width:100%;
-  
+    width:80%;
+
 }
 
-
+#header{
+    width:80%;
+}
 
 
 
@@ -26,7 +28,7 @@ body {
 	font-size: 50px;
 	position:absolute;
 	left:300px;
-
+	font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 
@@ -48,28 +50,28 @@ font-family:Lato;
 
 #p1{
     height:50px;
-    width:100px;
+    width:90px;
     border: 1px solid black;
     padding: 20px 50px;
     box-shadow: 10px 10px 30px #555;
     left:160px;
     font-size: 20px;
-    position:fixed;
+    position:absolute;
     text-align: center;
     margin-top:25px;
     text-decoration: none;
     color: black;
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 25px;
-    
+
 }
 
 #p2{
     height:50px;
-    width:100px;
+    width:90px;
     border: 1px solid black;
     padding: 20px 50px;
-    box-shadow: 10px 10px 30px #555;   
+    box-shadow: 10px 10px 30px #555;
     font-size: 20px;
      text-align: center;
     margin-top:25px;
@@ -77,16 +79,16 @@ font-family:Lato;
     color: black;
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 25px;
-    position:fixed;
+    position:absolute;
     left: 388px;
 }
 
 #p3{
     height:50px;
-    width:100px;
+    width:90px;
     border: 1px solid black;
     padding: 20px 50px;
-    box-shadow: 10px 10px 30px #555;   
+    box-shadow: 10px 10px 30px #555;
     font-size: 20px;
      text-align: center;
     margin-top:25px;
@@ -94,18 +96,18 @@ font-family:Lato;
     color: black;
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 25px;
-    position:fixed;
+    position:absolute;
     left: 620px;
 }
 
 #p4{
     height:60px;
-    width:100px;
+    width:90px;
     border: 1px solid black;
     padding: 20px 65px;
     padding-left:35px;
     padding-bottom: 10px;
-    box-shadow: 10px 10px 30px #555;   
+    box-shadow: 10px 10px 30px #555;
     font-size: 20px;
     text-align: center;
     margin-top:25px;
@@ -113,17 +115,17 @@ font-family:Lato;
     color: black;
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 25px;
-    position:fixed;
-    right: 235px;
+    position:absolute;
+    left: 850px;
 
 }
 
 #p5{
     height:50px;
-    width:100px;
+    width:90px;
     border: 1px solid black;
     padding: 20px 50px;
-    box-shadow: 10px 10px 30px #555;   
+    box-shadow: 10px 10px 30px #555;
     font-size: 20px;
      text-align: center;
     margin-top:25px;
@@ -131,6 +133,300 @@ font-family:Lato;
     color: black;
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 25px;
-    position:fixed;
-    right:10px;
+    position:absolute;
+    left:1080px;
+
+}
+#reflect{
+	position:absolute;
+	left:100px;
+	width:650px;
+	padding-bottom: 30px;
+}
+
+#final{
+	position:absolute;
+	left: 700px;
+}
+
+#aboveref{
+	position:relative;
+	left:280px;
+	font-size: 30px;
+	font-family: 'ZCOOL KuaiLe';
+}
+
+#anim{
+	position: absolute;
+	left:360px;
+	padding-top: 70px;
+
+}
+
+.gallery{
+    width:640px;
+    margin: 5px auto;
+    padding:5px;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+
+}
+
+.gallery {
+  width: 640px;
+  margin: 50px auto;
+  padding: 5px;
+  background: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left:320px;
+
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  width: 200px;
+  transition: 0.1s transform;
+  transform: translateZ(0);
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.8, 1.8);
+  transition: 0.3s transform;
+}
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+
+
+.bttn-default {
+  color: #fff;
+}
+.bttn-primary,
+.bttn,
+.bttn-lg,
+.bttn-md,
+.bttn-sm,
+.bttn-xs {
+  color: ghostwhite;
+}
+.bttn-warning {
+  color: #feab3a;
+}
+.bttn-danger {
+  color: #ff5964;
+}
+.bttn-success {
+  color: #28b78d;
+}
+.bttn-royal {
+  color: #bd2df5;
+}
+.bttn,
+.bttn-lg,
+.bttn-md,
+.bttn-sm,
+.bttn-xs {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+}
+.bttn-lg {
+  padding: 8px 15px;
+  font-size: 24px;
+  font-family: inherit;
+}
+.bttn-md {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+}
+.bttn-sm {
+  padding: 4px 10px;
+  font-size: 16px;
+  font-family: inherit;
+}
+.bttn-xs {
+  padding: 3px 8px;
+  font-size: 12px;
+  font-family: inherit;
+}
+.bttn-fill {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  z-index: 0;
+  border: none;
+  background: #fff;
+  color: ghostwhite;
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-fill:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: ghostwhite;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.15s ease-out, -webkit-transform 0.15s ease-out;
+  transition: opacity 0.15s ease-out, -webkit-transform 0.15s ease-out;
+  transition: transform 0.15s ease-out, opacity 0.15s ease-out;
+  transition: transform 0.15s ease-out, opacity 0.15s ease-out, -webkit-transform 0.15s ease-out;
+  z-index: -1;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.bttn-fill:hover,
+.bttn-fill:focus {
+  box-shadow: 0 1px 8px rgba(58,51,53,0.3);
+  color: lightgray;
+  -webkit-transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-fill:hover:before,
+.bttn-fill:focus:before {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  transition: opacity 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+.bttn-fill.bttn-xs {
+  padding: 3px 8px;
+  font-size: 12px;
+  font-family: inherit;
+}
+.bttn-fill.bttn-xs:hover,
+.bttn-fill.bttn-xs:focus {
+  box-shadow: 0 1px 4px rgba(58,51,53,0.3);
+}
+.bttn-fill.bttn-sm {
+  padding: 4px 10px;
+  font-size: 16px;
+  font-family: inherit;
+}
+.bttn-fill.bttn-sm:hover,
+.bttn-fill.bttn-sm:focus {
+  box-shadow: 0 1px 6px rgba(58,51,53,0.3);
+}
+.bttn-fill.bttn-md {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+}
+.bttn-fill.bttn-md:hover,
+.bttn-fill.bttn-md:focus {
+  box-shadow: 0 1px 8px rgba(58,51,53,0.3);
+}
+.bttn-fill.bttn-lg {
+  padding: 8px 15px;
+  font-size: 24px;
+  font-family: inherit;
+}
+.bttn-fill.bttn-lg:hover,
+.bttn-fill.bttn-lg:focus {
+  box-shadow: 0 1px 10px rgba(58,51,53,0.3);
+}
+.bttn-fill.bttn-default {
+  background: #fff;
+  color: ghostwhite;
+}
+.bttn-fill.bttn-default:hover,
+.bttn-fill.bttn-default:focus {
+  color: lightgray;
+}
+.bttn-fill.bttn-default:before {
+  background: ghostwhite;
+}
+.bttn-fill.bttn-primary {
+  background: ghostwhite;
+  color: #fff;
+}
+.bttn-fill.bttn-primary:hover,
+.bttn-fill.bttn-primary:focus {
+  color: ghostwhite;
+}
+.bttn-fill.bttn-primary:before {
+  background: lightgray;
+}
+.bttn-fill.bttn-warning {
+  background: #feab3a;
+  color: lightgray;
+}
+.bttn-fill.bttn-warning:hover,
+.bttn-fill.bttn-warning:focus {
+  color: #feab3a;
+}
+.bttn-fill.bttn-warning:before {
+  background: #fff;
+}
+.bttn-fill.bttn-danger {
+  background: #ff5964;
+  color: lightgray;
+}
+.bttn-fill.bttn-danger:hover,
+.bttn-fill.bttn-danger:focus {
+  color: #ff5964;
+}
+.bttn-fill.bttn-danger:before {
+  background: #fff;
+}
+.bttn-fill.bttn-success {
+  background: #28b78d;
+  color: #fff;
+}
+.bttn-fill.bttn-success:hover,
+.bttn-fill.bttn-success:focus {
+  color: #28b78d;
+}
+.bttn-fill.bttn-success:before {
+  background: lightgray;
+}
+.bttn-fill.bttn-royal {
+  background: #bd2df5;
+  color: lightgray;
+}
+.bttn-fill.bttn-royal:hover,
+.bttn-fill.bttn-royal:focus {
+  color: #bd2df5;
+}
+.bttn-fill.bttn-royal:before {
+  background: lightgray;
 }
